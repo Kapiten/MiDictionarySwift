@@ -21,15 +21,15 @@ open class MiDictionary: NSObject {
         
     }
     
-//    init(fromJson:String) {
-//        super.init()
+    init(fromJson:String) {
+        super.init()
 //        
 //        var json = try! JSONSerialization.jsonObject(with: JSONSerialization.data(withJSONObject: fromJson, options: []), options: []) as! [String:Any]
 //        
 //        for (key,value) in json {
 //            
 //        }
-//    }
+    }
     
     public func setValue(_ value: Any?, forLabel: String) {
         allLabels.append(forLabel)
